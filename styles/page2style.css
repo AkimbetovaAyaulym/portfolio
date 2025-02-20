@@ -1,0 +1,294 @@
+.page2Title {
+  position: absolute;
+width: 383px;
+height: 59px;
+top: 119px;
+gap: 0px;
+opacity: 0px;
+font-size: 80px;
+font-weight: 700;
+line-height: 96.82px;
+text-align: center;
+align-items: center;
+margin-bottom: 20px;
+color: rgba(255, 255, 255, 1);
+text-shadow: 5px 4px 0px #000000
+}
+
+.info{
+    background: rgba(121, 42, 255, 1);
+    width: 894.88px;
+    height: 298px;
+    top: 298px;
+    border-radius: 0px 0px 10px 10px;
+position: absolute;
+border-radius: 0px 0px 10px 10px;
+}
+
+.infoText{
+width: 463px;
+height: 111px;
+margin-left: 30px;
+gap: 0px;
+opacity: 0px;
+font-size: 20px;
+font-weight: 700;
+line-height: 20.99px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+font-family: 'ALS Sector Regular Regular';
+}
+
+.info-button {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2B2D35;
+    background: #BBFF2C;
+    box-shadow: 0px 4px 0px #000000;
+    cursor: pointer; 
+    border-radius: 100px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    width: 200px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    font-family: 'ALS Sector Regular Regular';
+  }
+
+  .info2{
+    position: absolute;   
+    background: rgba(210, 208, 247, 1);
+    width: 376px;
+  height: 346px;
+  top: 274px;
+  left: 850px;
+  border-radius: 10px;
+  text-align: center;
+  
+  }
+
+  .info2-button {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  
+  
+.info2-button-orange,
+.info2-button-yellow,
+.info2-button-green {
+  margin-left: 5px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 16.82px;
+  height: 16.82px;
+}
+
+.info2-button-orange {
+  background: #FF6A00;
+}
+
+.info2-button-yellow {
+  background: #FFE603;
+}
+
+.info2-button-green {
+  background: #04C800;
+}
+
+  .info2Text{
+    width: 334px;
+    height: 63px;
+    margin-left: 20px;
+  }
+  
+  .img{
+
+    margin-top: 20px;
+    width: 336px;
+  height: 186px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  object-fit: cover;
+  object-position: top;
+  }
+
+
+  .info2Text p {
+    font-size: 20px;
+    margin: 5px 0;
+    line-height: 20.99px;
+    text-align: left;
+    color: #000000;
+    font-family: 'ALS Sector Regular Regular';
+  }
+  
+  .info2Text p span {
+    font-weight: 700;
+    font-family: 'ALS Sector Regular Regular';
+  }
+
+  .planetPage2{
+    position: absolute;
+    width: 222px;
+    height: 214.04px;
+    top: 95px;
+    left: 1300px;
+  }
+
+  .cloud{
+    position: absolute;
+    width: 179px;
+height: 162px;
+top: 498px;
+left: 60px;
+gap: 0px;
+opacity: 0.7px;
+  }
+
+  .ellipse1{
+    position: absolute;
+    width: 44px;
+height: 30px;
+top: 653px;
+left: 153px;
+gap: 0px;
+opacity: 0px;
+  }
+  .ellipse2{
+    position: absolute;
+    width: 44px;
+height: 15px;
+top: 653px;
+left: 95px;
+gap: 0px;
+opacity: 0px;
+  }
+  .vector{
+    position: absolute;
+    width: 113.23px;
+height: 130.78px;
+top: 516px;
+left: 1333.23px;
+gap: 0px;
+opacity: 0.7px;
+  }
+
+  .metaPage2{
+    position: absolute;
+    width: 14px;
+height: 11px;
+top: 204px;
+left: 1019px;
+opacity: 0.7px;
+color: rgba(178, 221, 255, 1);
+  }
+  .img1{
+    width: 18px;
+  height: 17px;
+  top: 251px;
+  left: 226px;
+  }
+
+  .img2{
+    width: 18px;
+height: 17px;
+top: 78px;
+left: 98px;
+  }
+
+  .img3{
+    width: 14px;
+height: 11px;
+top: 299px;
+left: 199px;
+  }
+  .img4{
+    width: 14px;
+height: 11px;
+top: 72px;
+left: 984px;
+  }
+
+  .img5{
+width: 14px;
+height: 11px;
+top: 132px;
+left: 226px;
+  }
+
+  @media (max-width: 768px) {
+    .page2Title{
+      width: 322px;
+  height: 24px;
+  left: 20px;
+  font-size: 30px;
+  line-height: 36.31px;
+  z-index: 2;
+  top:50px
+    }
+  
+    .info{
+      width: 318.18px;
+  height: 214.4px;
+  left: 20px;
+  top:416px
+    }
+    .infoText{
+      width: 300px;
+  height: 84px;
+  left: 32px;
+  font-size: 14px;
+  line-height: 14.69px;
+    }
+    .info-button{
+      width: 210px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 14.69px;
+  margin-left: 15px;
+  margin-top: 30px;
+  left: 30px;
+    }
+  
+    .info2{
+      width: 318px;
+  height: 271px;
+  left: 20px;
+  top:120px;
+  border-radius: 10px;
+    }
+    
+    .img{
+      width: 284.1701965332031px;
+  height: 145.6820831298828px;
+  left: 36.91px;
+  border-width: 1px;
+  margin-top: 10px;
+    }
+    .info2Text p{
+  font-size: 20px;
+  line-height: 20.99px;
+    }
+    .ellipse1{
+      width: 30px;
+  height: 20px;
+  top: 700px;
+  left: 220px;
+    }
+  .ellipse2{
+      width: 30px;
+  height: 10px;
+  top: 700px;
+  left: 181px;
+  }
+  .planetPage2{
+      width: 82.1069107055664px;
+  height: 79.16112518310547px;
+  top: 73px;
+  left: -15px;
+  }
+  }

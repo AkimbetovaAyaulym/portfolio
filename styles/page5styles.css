@@ -1,0 +1,278 @@
+.page5Title { 
+    position: absolute;
+    width: 868px;
+height: 59px;
+top: 130px;
+font-family: 'Inter', sans-serif;
+font-size: 80px;
+font-weight: 700;
+line-height: 96.82px;
+text-align: center;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+text-shadow: 5px 4px 0px #000000
+}
+
+.reviewerInfo{
+    position: absolute;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(210, 208, 247, 1);
+    box-shadow: 5px 4px 0px #000000
+}
+ .reviewer1{
+    width: 192.49px;
+    height: 294.11px;
+    top: 294.48px;
+    left: 214.65px;
+ }
+
+ .reviewer2{
+    width: 195.36px;
+height: 298.97px;
+top: 294.48px;
+left: 749.97px;
+ }
+  
+  
+.button-orange,
+.button-yellow,
+.button-green {
+  margin-left: 5px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 16.11px;
+height: 16.33px;
+}
+
+.button-orange {
+  background: #FF6A00;
+}
+
+.button-yellow {
+  background: #FFE603;
+}
+
+.button-green {
+  background: #04C800;
+}
+
+.reviewerimg{
+width: 154.18px;
+height: 140.75px;
+object-fit: cover;
+object-position: center;
+justify-content: center;
+margin-top: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+}
+
+.name{
+    width: 154.18px;
+    height: 14.56px;
+    margin-left: 19px;
+font-size: 20px;
+font-weight: 700;
+line-height: 20.99px;
+text-align: left;
+color:rgba(43, 45, 53, 1);
+margin-top: 5px;
+margin-bottom: 0px;
+font-family: 'ALS Sector Regular Regular';
+}
+.position{
+    width: 154.18px;
+height: 60.18px;
+margin-left: 19px;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color:  rgba(0, 0, 0, 0.5);
+margin-top: 7px;
+font-family: 'ALS Sector Regular Regular';
+}
+
+.comment{
+position: absolute;
+border-radius: 12px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+border-radius: 5px;
+z-index: 2;
+}
+.comm1{
+  width: 313px;
+  height: 156px;
+  top: 354px;
+  left: 417px;
+}
+.comm2{
+  width: 312px;
+height: 155px;
+top: 349px;
+left: 955px;
+}
+.commentContent{
+position: absolute;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 0;
+z-index: 2;
+font-family: 'ALS Sector Regular Regular';
+}
+
+.content1{
+  width: 257px;
+  height: 85px;
+  top: 373px;
+  left: 454px;
+}
+
+.content2{
+  width: 256px;
+height: 85px;
+top: 369px;
+left: 992px;
+}
+
+.shadow{
+position: absolute;
+border-radius: 12px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+}
+
+.sh1{
+  width: 315px;
+height: 158px;
+top: 357px;
+left: 420px;
+}
+.sh2{
+  width: 316px;
+height: 156px;
+top: 352px;
+left: 956px;
+}
+
+.comm1-mobile{
+  display: none;
+}
+.sh1-mobile{
+  display: none;
+}
+.comm2-mobile{
+display: none;
+}
+.sh2-mobile{
+  display: none;
+}
+@media (max-width: 768px){
+  .page5Title{
+    width: 322px;
+    height: 24px;
+    top: 61px;
+    left: 20px;
+    font-size: 30px;
+    line-height: 36.31px;
+    }
+    .reviewer1{
+        width: 213px;
+        height: 268px;
+        top: 120px;
+        left: 76px;
+    }
+    .reviewer2{
+    width: 213px;
+    height: 268px;
+    top: 510px;
+    left: 72px;
+    
+    }
+    .name{
+        width: 151px;
+    height: 9px;
+    top: 211px;
+    left: 10px;
+    font-size: 14px;
+    line-height: 14.69px;
+    }
+    .position{
+        width: 190px;
+    height: 25px;
+    top: 230px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15.03px;
+    }
+    
+    .reviewerimg{
+        width: 190px;
+    height: 171px;
+    top: 30px;
+    left: 10px;
+    }  
+    .comm1{
+        display: none;
+    }
+    .sh1{
+        display: none;
+    }
+    .comm1-mobile{
+        display: block;
+        width: 208px;
+    height: 74px;
+    top: 405px;
+    border-radius: 10px;
+    border-width: 2px;
+    }
+    
+    .sh1-mobile{
+        display: block;
+        width: 208px;
+    height: 76px;
+    top: 408px;
+    left: 78px;
+    border-radius: 10px;
+    }
+    .commentContent{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14.69px;
+    }
+    .content1{
+        width: 188px;
+    height: 54px;
+    top: 410px;
+    left: 82px;
+    }   
+    .comm2-mobile{
+        display: block;
+        width: 208px;
+    height: 74px;
+    top: 795px;
+    border-radius: 10px;
+    border-width: 2px;
+    
+    }
+    
+    .sh2-mobile{
+        display: block;
+        width: 208px;
+    height: 76px;
+    top: 798px;
+    left: 78px;
+    border-radius: 10px;
+    }
+    .content2{
+        width: 188px;
+    height: 54px;
+    top: 800px;
+    left: 82px;
+    }
+}

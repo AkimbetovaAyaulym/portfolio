@@ -1,0 +1,99 @@
+.page4Title { 
+    position: absolute;
+    width: 787px;
+height: 64px;
+top: 130px;
+font-family: 'Inter', sans-serif;
+font-size: 80px;
+font-weight: 700;
+line-height: 96.82px;
+text-align: center;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+text-shadow: 5px 4px 0px #000000
+}
+
+.works{
+    position: absolute;
+    height: 275px;
+    top: 271px;
+    justify-content: space-between;
+}
+
+.worksImg{
+    margin-left: 18px;
+}
+
+.page4Img1{
+    position: absolute;
+    width: 130.35px;
+height: 130.34px;
+top: 550px;
+left: 56.19px;
+transform: rotate(28.5deg);
+}
+
+.cameta4{
+    width: 113.23px;
+height: 130.78px;
+top: 102px;
+left: 63px;
+transform: rotate(-90deg);
+}
+
+.cameta5{
+    width: 41.84px;
+height: 49.74px;
+top: 102px;
+left: 1435.84px;
+}
+
+.metaP41{
+    width: 18px;
+height: 17px;
+top: 45px;
+left: 398px;
+}
+
+.metaP42{
+    width: 14px;
+    height: 11px;
+    top: 93px;
+    left: 371px;    
+}
+
+@media (max-width: 768px){
+    .page4Title{
+        width: 322px;
+    height: 24px;
+    top: 52px;
+    left: 18px;
+    font-size: 30px;
+    line-height: 36.31px;
+    }
+    .works{
+    width: 301px;
+    top: 92px;
+    left: 32px;
+    margin-top: 5px;
+    }
+    .worksImg{
+     height: 196px;
+     margin-left: 8px;
+     margin-top: 10px;
+    }
+    .page4Img1{
+        width: 131.27023699152124px;
+    height: 129.65201714771487px;
+    top: 580px;
+    left: 0;
+    }
+    .cameta4{
+    width: 63.88017654418945px;
+    height: 71.12105560302734px;
+    top: 35px;
+    left: 30px;
+    opacity: 0.5;
+    
+    }
+}

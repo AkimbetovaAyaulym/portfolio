@@ -32,13 +32,12 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   
   #page1 {
     background-color: #240057;
     font-family: 'Inter', sans-serif;
-    position: relative;
-
   }
   
   #page2 {

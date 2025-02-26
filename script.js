@@ -18,3 +18,26 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('section.page');
+    const navLinks = document.querySelectorAll('.nav-link');
+  
+    const observerOptions = {
+      threshold: 0.6 
+    };
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+          });
+        }
+      });
+    }, observerOptions);
+  
+    sections.forEach(section => observer.observe(section));
+  });
+  
